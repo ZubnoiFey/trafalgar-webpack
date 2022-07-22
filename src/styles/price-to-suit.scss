@@ -1,0 +1,40 @@
+.price-to-suit {
+  padding-top: 400px;
+  padding-bottom: 170px;
+  background-color: rgba(231,236,255,0.5)
+}
+
+.price-to-suit__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.price-to-suit-heading {
+  margin-bottom: 40px;
+}
+
+.price-to-suit__text {
+  margin-bottom: 55px;
+}
+
+.price-to-suit__price {
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #222F65;
+  margin-bottom: 20px;
+}
+
+.price-to-suit__kit {
+  margin-bottom: 70px;
+}
+
+.price-to-suit__bottom-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5D6970;
+  margin-bottom: 15px;
+}

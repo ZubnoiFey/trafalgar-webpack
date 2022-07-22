@@ -1,0 +1,9 @@
+import "./styles/reset.scss";
+import "./styles/general.scss";
+import "./styles/header.scss";
+import "./styles/components/button.scss";
+import "./styles/hero.scss";
+import "./styles/light-fast-first.scss";
+import "./styles/light-fast.scss";
+import "./styles/price-to-suit.scss";
+import "./styles/footer.scss";

@@ -1,0 +1,36 @@
+.hero__container {
+  padding-top: 205px;
+  padding-bottom: 200px;
+}
+
+.hero__text {
+  width: 550px;
+}
+
+.hero__main-text {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #091133;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.hero__paragraph {
+font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 80px;
+  color: #505F98;
+}
+
+.hero__buttons-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.hero {
+  background-image: url("../../src/img/designer_1.png");
+  background-repeat: no-repeat;
+background-position: right top;
+}
