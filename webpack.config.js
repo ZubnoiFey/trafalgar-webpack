@@ -46,7 +46,7 @@ module.exports = {
         })
     ],
     devServer: {
-        port: 3001,
+        port: 3000,
         static: {
 directory: join (__dirname, 'src')
         }

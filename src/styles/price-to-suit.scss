@@ -1,9 +1,9 @@
 .price-to-suit {
   padding-top: 400px;
   padding-bottom: 170px;
-  background-color: rgba(231,236,255,0.5);
+  background-color: rgba(231, 236, 255, 0.5);
 
-    @include media-tablet{
+  @include media-tablet {
     padding-top: 100px;
     padding-bottom: 90px;
   }
@@ -18,14 +18,14 @@
 
 .price-to-suit-heading {
   margin-bottom: 40px;
-    @include media-tablet{
+  @include media-tablet {
     margin-bottom: 20px;
   }
 }
 
 .price-to-suit__text {
   margin-bottom: 55px;
-  @include media-tablet{
+  @include media-tablet {
     margin-bottom: 20px;
     text-align: justify;
   }
@@ -37,7 +37,7 @@
   font-weight: 500;
   color: #222F65;
   margin-bottom: 20px;
-    @include media-tablet{
+  @include media-tablet {
     font-size: 30px;
     margin-bottom: 10px;
   }
@@ -45,7 +45,7 @@
 
 .price-to-suit__kit {
   margin-bottom: 70px;
-  @include media-tablet{
+  @include media-tablet {
     margin-bottom: 20px;
   }
 }
