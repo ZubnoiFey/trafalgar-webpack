@@ -1,10 +1,16 @@
 .hero__container {
   padding-top: 205px;
   padding-bottom: 200px;
+
+  @include media-tablet {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
 
 .hero__text {
-  width: 550px;
+width: 600px;
+  text-align: justify;
 }
 
 .hero__main-text {
@@ -14,23 +20,55 @@
   color: #091133;
   margin-bottom: 50px;
   align-items: center;
+  @include media-tablet {
+    font-size: 35px;
+    margin-bottom: 25px;
+
+  }
+  @include media-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .hero__paragraph {
-font-size: 18px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
   margin-bottom: 80px;
   color: #505F98;
+  @include media-tablet {
+    font-size: 14px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @include media-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .hero__buttons-wrapper {
   display: flex;
   gap: 30px;
+  @include media-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .hero {
   background-image: url("../../src/img/designer_1.png");
   background-repeat: no-repeat;
-background-position: right top;
+  background-position: right top;
+  @include media-tablet {
+    background-image: none;
+    background-color: rgba(231, 236, 255, 0.5);
+  }
 }

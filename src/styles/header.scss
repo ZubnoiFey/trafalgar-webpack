@@ -7,9 +7,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  }
 }
 
 .header__list {
   display: flex;
-gap: 35px;
+  gap: 35px;
 }
