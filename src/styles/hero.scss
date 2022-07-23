@@ -4,6 +4,15 @@
   background-image: url("../../src/img/header-dots.svg");
   background-position: left top;
   background-repeat: no-repeat;
+
+}
+
+@media(max-width: 1200px) {
+  .hero {
+    padding-top: 35px;
+    padding-bottom: 70px;
+    background-image: none;
+  }
 }
 
 .hero__container {
@@ -24,12 +33,23 @@
   color: rgba(0, 0, 0, 1)
 }
 
+@media(max-width: 1200px) {
+  .hero__main-heading {
+    font-size: 36px;
+  }
+}
 .hero__text {
   font-size: 21px;
   font-weight: 300;
   line-height: 1.5;
   color: rgba(125, 121, 135, 1);
   margin-bottom: 45px;
+}
+
+@media(max-width: 1200px) {
+  .hero__text {
+    font-size: 18px;
+  }
 }
 
 

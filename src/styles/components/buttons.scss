@@ -9,6 +9,15 @@
   border-radius: 55px;
 }
 
+@media(max-width: 1200px) {
+  .button {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+}
+
 .button--filled {
   background-color: rgba(69, 143, 246, 1);
   color: rgba(255, 255, 255, 1);
