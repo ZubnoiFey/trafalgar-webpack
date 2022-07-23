@@ -82,7 +82,15 @@ body {
   line-height: 1.5;
 }
 
-
 .text--white {
   color: #FFFFFF;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
 }
