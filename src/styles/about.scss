@@ -4,12 +4,30 @@
   align-items: center;
 }
 
+@media(max-width: 1200px) {
+  .about__container{
+    gap: 75px;
+  }
+}
+
 .healthcare-providers {
   padding-top: 110px;
   padding-bottom: 110px;
 }
 
-.download-apps {
+@media(max-width: 1200px) {
+  .healthcare-providers {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+
+.about__image{
+  width: 100%;
+}
+
+  .download-apps {
   padding-top: 110px;
   padding-bottom: 135px;
   background-image: url("../../src/img/healtcare-dots.svg");
@@ -17,16 +35,41 @@
   background-repeat: no-repeat;
 }
 
+@media(max-width: 1200px) {
+  .download-apps {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+}
+
 .healthcare-providers__heading {
   margin-bottom: 85px;
+}
+
+
+@media(max-width: 1200px) {
+  .healthcare-providers__heading {
+    margin-bottom: 25px;
+  }
 }
 
 .healthcare-providers__text {
   margin-bottom: 50px;
 }
 
+@media(max-width: 1200px) {
+  .healthcare-providers__text  {
+    margin-bottom: 25px;
+  }
+}
+
 .download-apps__heading {
   margin-bottom: 85px;
+}
+@media(max-width: 1200px) {
+  .download-apps__heading {
+    margin-bottom: 25px;
+  }
 }
 
 .download__apps-text{
