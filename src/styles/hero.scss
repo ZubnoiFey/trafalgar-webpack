@@ -1,0 +1,43 @@
+.hero {
+  padding-top: 45px;
+  padding-bottom: 107px;
+  background-image: url("../../src/img/header-dots.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__text-wrapper {
+  width: 450px;
+}
+
+.hero__main-heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 35px;
+  color: rgba(0, 0, 0, 1)
+}
+
+.hero__text {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: rgba(125, 121, 135, 1);
+  margin-bottom: 45px;
+}
+
+
+.hero__image-wrapper {
+  width: 700px;
+}
+
+
+.hero__image {
+  width: 100%;
+}
