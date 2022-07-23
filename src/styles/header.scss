@@ -15,20 +15,35 @@
     display: flex;
   }
 }
+@media(max-width: 600px) {
+  .header__container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
 
 .header__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 45px;
-  @media(max-width: 1200px) {
-    .header__list {
-      display: flex;
-      gap: 5px;
-    }
+
+  }
+@media(max-width: 1200px) {
+  .header__list {
+    display: flex;
+    gap: 5px;
   }
 }
 
+@media(max-width: 600px) {
+  .header__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .header__link {
   font-size: 18px;
   font-weight: 400;

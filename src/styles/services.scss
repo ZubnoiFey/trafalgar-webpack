@@ -25,10 +25,20 @@
   }
 }
 
+
 .services__text {
   margin-bottom: 90px;
+  color: rgba(125, 121, 135, 1)
 }
 
+@media(max-width: 600px) {
+  .services__text {
+    text-align: start;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .services__cards {
   display: flex;
   flex-wrap: wrap;
@@ -40,6 +50,14 @@
   .services__cards {
     display: flex;
     gap: 10px;
+  }
+}
+
+@media(max-width: 600px) {
+  .services__cards {
+   display: flex;
+   justify-content: center;
+    align-items: center;
   }
 }
 
@@ -88,9 +106,7 @@
   margin-bottom: 15px;
   }
 }
-  .services__text {
-  color: rgba(125, 121, 135, 1)
-}
+
 
 .services__button-wrapper {
   margin-top: 45px;

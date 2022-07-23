@@ -21,10 +21,22 @@
   align-items: center;
 }
 
+@media(max-width: 600px) {
+  .hero__container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
 .hero__text-wrapper {
   width: 450px;
 }
 
+@media(max-width: 600px) {
+  .hero__text-wrapper {
+    width: 300px;
+  }}
 .hero__main-heading {
   font-size: 48px;
   font-weight: 700;

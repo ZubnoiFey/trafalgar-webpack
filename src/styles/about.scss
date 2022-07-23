@@ -10,6 +10,13 @@
   }
 }
 
+@media(max-width: 600px) {
+  .about__container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .healthcare-providers {
   padding-top: 110px;
   padding-bottom: 110px;
@@ -63,6 +70,13 @@
   }
 }
 
+@media(max-width: 600px) {
+  .healthcare-providers__text  {
+width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .download-apps__heading {
   margin-bottom: 85px;
 }
