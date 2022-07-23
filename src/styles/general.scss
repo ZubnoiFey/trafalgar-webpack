@@ -1,8 +1,9 @@
 @import "src/styles/reset.scss";
 @import "src/styles/styles.scss";
+@import "src/styles/mixins/center.scss";
+@import "src/styles/mixins/mobile.scss";
 @import "src/styles/components/buttons.scss";
 @import "src/styles/header.scss";
-@import "src/styles/mixins/center.scss";
 @import "src/styles/hero.scss";
 @import "src/styles/services.scss";
 @import "src/styles/about.scss";

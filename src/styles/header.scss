@@ -10,11 +10,23 @@
   gap: 45px;
 }
 
+@media(max-width: 1200px) {
+  .header__container {
+    display: flex;
+  }
+}
+
 .header__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 45px;
+  @media(max-width: 1200px) {
+    .header__list {
+      display: flex;
+      gap: 5px;
+    }
+  }
 }
 
 .header__link {
@@ -31,4 +43,7 @@
   font-weight: 700;
   line-height: 1.25;
 }
+
+
+
 
