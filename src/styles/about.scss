@@ -5,13 +5,14 @@
 }
 
 @media(max-width: 1200px) {
-  .about__container{
+  .about__container {
+    display: flex;
     gap: 75px;
   }
 }
 
 @media(max-width: 600px) {
-  .about__container{
+  .about__container {
     display: flex;
     flex-direction: column;
   }
@@ -30,11 +31,11 @@
 }
 
 
-.about__image{
+.about__image {
   width: 100%;
 }
 
-  .download-apps {
+.download-apps {
   padding-top: 110px;
   padding-bottom: 135px;
   background-image: url("../../src/img/healtcare-dots.svg");
@@ -65,27 +66,30 @@
 }
 
 @media(max-width: 1200px) {
-  .healthcare-providers__text  {
+  .healthcare-providers__text {
+    width: 90%;
     margin-bottom: 25px;
   }
 }
 
 @media(max-width: 600px) {
-  .healthcare-providers__text  {
-width: 540px;
+  .healthcare-providers__text {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
   }
 }
+
 .download-apps__heading {
   margin-bottom: 85px;
 }
+
 @media(max-width: 1200px) {
   .download-apps__heading {
     margin-bottom: 25px;
   }
 }
 
-.download__apps-text{
+.download__apps-text {
   margin-bottom: 50px;
 }

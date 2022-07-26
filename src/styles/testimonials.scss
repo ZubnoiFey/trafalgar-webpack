@@ -2,7 +2,7 @@
   padding-top: 135px;
   padding-bottom: 60px;
   background-image: url("../img/testimonials-bottom-dots.svg");
-  background-position:left 340px top 450px;
+  background-position: left 340px top 450px;
   background-repeat: no-repeat;
 }
 
@@ -11,12 +11,13 @@
     padding-top: 85px;
     padding-bottom: 0;
     background-image: none;
+
   }
 }
 
 .testimonials__container--blue {
-  background-image: url("../img/testimonials-top-dots.svg"),linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-  background-position:right top,0;
+  background-image: url("../img/testimonials-top-dots.svg"), linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  background-position: right top, 0;
   background-repeat: no-repeat, no-repeat;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -24,8 +25,6 @@
 
 @media(max-width: 1200px) {
   .testimonials__container--blue {
-    padding-top: 85px;
-    padding-bottom: 60px;
     background-image: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
   }
 }
@@ -38,22 +37,25 @@
   padding-left: 150px;
 }
 
-@media(max-width: 1200px) {
-  .testimonials__container {
-    padding-right: 90px;
-    padding-left: 90px;
+.testimonials__container--blue {
+  @media(max-width: 600px) {
+    padding-top: 55px;
+    padding-right: 100px;
+    padding-bottom: 55px;
+    padding-left: 100px;
   }
 }
+
 
 .testimonials__heading {
   margin-bottom: 100px;
-}
-
-@media(max-width: 1200px) {
-  .testimonials__heading {
-    margin-bottom: 60px;
+  @media(max-width: 1200px) {
+    .testimonials__heading {
+      margin-bottom: 10px;
+    }
   }
 }
+
 
 .testimonials__text-wrapper {
   display: flex;
@@ -62,16 +64,18 @@
 }
 
 @media(max-width: 1200px) {
-  .testimonials__text-wrapper{
+  .testimonials__text-wrapper {
     display: flex;
-    flex-wrap: wrap;
     gap: 60px;
+    flex-wrap: wrap;
+    align-items: center;
   }
 }
 
 .testimonials__photo-wrapper {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -80,8 +84,8 @@
 }
 
 @media(max-width: 1200px) {
-  .testimonials__image{
-   width: 80px;
+  .testimonials__image {
+
   }
 }
 

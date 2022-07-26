@@ -35,8 +35,10 @@
 
 @media(max-width: 600px) {
   .hero__text-wrapper {
-    width: 300px;
-  }}
+    width: 90%;
+  }
+}
+
 .hero__main-heading {
   font-size: 48px;
   font-weight: 700;
@@ -50,6 +52,7 @@
     font-size: 36px;
   }
 }
+
 .hero__text {
   font-size: 21px;
   font-weight: 300;
@@ -67,6 +70,12 @@
 
 .hero__image-wrapper {
   width: 700px;
+}
+
+@media(max-width: 1200px) {
+  .hero__image-wrapper {
+    width: 90%;
+  }
 }
 
 

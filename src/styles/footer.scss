@@ -9,8 +9,9 @@
   justify-content: space-between;
   align-items: center;
 }
+
 @media (max-width: 1250px) {
-  .footer__container{
+  .footer__container {
     display: flex;
     gap: 30px;
   }
@@ -25,10 +26,11 @@
   display: flex;
   gap: 100px;
 }
-@media (max-width: 1250px) {
 
+@media (max-width: 1250px) {
   .footer__nav {
     display: flex;
+    flex-wrap: wrap;
     gap: 45px;
   }
 }
@@ -36,7 +38,7 @@
 .footer__list {
   display: flex;
   flex-direction: column;
-gap: 15px;
+  gap: 15px;
 }
 
 .footer__icon {
@@ -61,5 +63,5 @@ gap: 15px;
   font-weight: 300;
   line-height: 1.3;
   color: #FFFFFF;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }

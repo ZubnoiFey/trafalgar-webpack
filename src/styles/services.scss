@@ -3,7 +3,7 @@
   padding-bottom: 110px;
   background-image: url("../../src/img/li-bg-drop.svg"), url("../../src/img/li-dots-element.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position:left top 140px, right 350px top 650px;
+  background-position: left top 140px, right 350px top 650px;
 }
 
 .services__heading::after {
@@ -34,11 +34,12 @@
 @media(max-width: 600px) {
   .services__text {
     text-align: start;
-    width: 500px;
+    width: 90%;
     padding-left: 10px;
     padding-right: 10px;
   }
 }
+
 .services__cards {
   display: flex;
   flex-wrap: wrap;
@@ -55,8 +56,9 @@
 
 @media(max-width: 600px) {
   .services__cards {
-   display: flex;
-   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
   }
 }
@@ -73,8 +75,8 @@
 }
 
 @media(max-width: 1200px) {
-  .services__item{
-    width: 45%;
+  .services__item {
+    width: 70%;
     padding-top: 35px;
     padding-bottom: 35px;
     padding-left: 25px;
@@ -103,7 +105,7 @@
 
 @media(max-width: 1200px) {
   .services__subheading {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
   }
 }
 
