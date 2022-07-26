@@ -49,7 +49,7 @@
 @media(max-width: 1200px) {
   .services__cards {
     display: flex;
-    gap: 10px;
+    gap: 20px;
   }
 }
 
@@ -64,9 +64,9 @@
 .services__item {
   width: 350px;
   padding-top: 55px;
-  padding-right: 45px;
+  padding-right: 40px;
   padding-bottom: 45px;
-  padding-left: 4px;
+  padding-left: 40px;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
   background-color: #FFFFFF;
@@ -74,10 +74,10 @@
 
 @media(max-width: 1200px) {
   .services__item{
-    width: 250px;
+    width: 45%;
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-left: 4px;
+    padding-left: 25px;
     padding-right: 25px;
   }
 }

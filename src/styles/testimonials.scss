@@ -30,7 +30,7 @@
   }
 }
 
-.testimonials__container {
+.testimonials__container--blue {
   border-radius: 24px;
   padding-top: 75px;
   padding-right: 150px;
@@ -64,6 +64,7 @@
 @media(max-width: 1200px) {
   .testimonials__text-wrapper{
     display: flex;
+    flex-wrap: wrap;
     gap: 60px;
   }
 }

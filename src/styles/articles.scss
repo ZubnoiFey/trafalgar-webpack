@@ -24,7 +24,7 @@ padding-bottom: 100px;
 .articles__list {
   display: flex;
   gap: 35px;
-
+flex-wrap: wrap;
 }
 
 .articles__item {
@@ -35,6 +35,13 @@ padding-bottom: 100px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
   box-shadow: 5px 10px 10px rgba(125, 121, 135, 0.2);
+  @media (max-width: 1250px) {
+    .articles__item {
+      display: flex;
+      flex-wrap: wrap;
+      width: 47%;
+    }
+  }
 }
 
 .articles__image {
