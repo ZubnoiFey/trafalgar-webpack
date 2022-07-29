@@ -14,8 +14,19 @@
   .footer__container {
     display: flex;
     gap: 30px;
+    align-items: flex-start;
   }
 }
+
+@media (max-width: 800px) {
+  .footer__container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
 
 .footer__legal {
   width: 400px;

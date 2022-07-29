@@ -23,12 +23,6 @@
   padding-bottom: 90px;
 }
 
-@media(max-width: 1200px) {
-  .testimonials__container--blue {
-    background-image: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-  }
-}
-
 .testimonials__container--blue {
   border-radius: 24px;
   padding-top: 75px;
@@ -40,9 +34,9 @@
 .testimonials__container--blue {
   @media(max-width: 600px) {
     padding-top: 55px;
-    padding-right: 100px;
+    padding-right: 20px;
     padding-bottom: 55px;
-    padding-left: 100px;
+    padding-left: 20px;
   }
 }
 
